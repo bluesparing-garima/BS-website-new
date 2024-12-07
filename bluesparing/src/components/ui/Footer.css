@@ -1,0 +1,116 @@
+.footer {
+    width: 100%;
+    background-color: #323437;
+    color: white;
+}
+
+.footer-field {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.About_Us,
+.Contact_Info {
+    width: 25%;
+    height: 250px;
+    /* border: 1px solid; */
+}
+
+.Quick_Link {
+    width: 22%;
+    height: 250px;
+    /* border: 1px solid; */
+}
+
+.Quick_Link>h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.About_Us>h1,
+.Contact_Info>h1 {
+    font-size: 24px;
+}
+
+
+.Quick_Link>p {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+}
+
+.About_Us>p,
+.Contact_Info>p {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: justify;
+}
+
+
+.media_icons {
+    font-size: 18px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.input_field {
+    margin: 15px 0;
+    height: 35px;
+    display: flex;
+    border-radius: 8px;
+}
+
+.input_field>input {
+    width: 60%;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.input_field>button {
+    width: 20%;
+    background-color: rgb(185, 33, 33);
+    color: #fff;
+    font-size: large;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.Newsletter>p {
+    margin-top: 20px;
+    width: 250px;
+    font-size: 15px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.horizontal {
+    width: 86%;
+    margin: auto;
+    color: blue;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+}
